@@ -1,5 +1,5 @@
 ## What to Test (Scope)
-_(Please specify the scope of this testing application.)_
+_Note: Please specify the scope of this testing application._
 
 In this challenge you have to test the **Digital subscription process to validate it is fast, easy, and works flawlessly.** Also you have to test the Digital subscription process on Smart phones, Tablets and Desktop. Need to test the Subscription, E-Edition, Rewards and Newsletter process.
 

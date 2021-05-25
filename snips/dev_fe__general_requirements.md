@@ -1,5 +1,5 @@
 ## General Requirements
-_(This section should describe some of the common challenge goals listed below)_
+_Note: This section should describe some of the common challenge goals listed below_
 
 **Validation**
 _(Whether to use standard W3C validators (html: [https://validator.w3.org/](https://validator.w3.org/) , CSS: [http://jigsaw.w3.org/](http://jigsaw.w3.org/)) or linters for code validation. For Angular, ReactJS applications it is preferred to use linters)_

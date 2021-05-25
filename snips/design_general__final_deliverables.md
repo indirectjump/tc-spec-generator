@@ -1,4 +1,5 @@
 ## Final Deliverables
+_Note: Update your email address._
 
 - All original source files.
 - Files should be created in Adobe Photoshop and saved as a layered PSD file, Adobe Illustrator or as a layered AI file or Sketch

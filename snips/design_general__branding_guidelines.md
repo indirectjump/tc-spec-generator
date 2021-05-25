@@ -1,5 +1,5 @@
 ## Branding Guidelines
-(Pick any of the three options below)
+_Note: Pick any of the three options below_
 
 - Branding guidelines will be posted in the challenge forum.
 - Branding guidelines can be viewed here.

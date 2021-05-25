@@ -1,5 +1,5 @@
 ## Screens/Features
-_(Please copy this section from the project input form. Remove items that are not applicable.)_
+_Note: Please copy this section from the project input form. Remove items that are not applicable._
 
 Please make sure your design includes the following screens:
 

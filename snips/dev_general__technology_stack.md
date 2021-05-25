@@ -1,5 +1,5 @@
 ## Technology Stack
-_(Please specify the technology stack for this code challenge, not the project itself.)_
+_Note: Please specify the technology stack for this code challenge, not the project itself._
 
 *   **&lt;Programming language(s) / frameworks to be used>  _Note if there are multiple languages being used, make sure to have a review of the scope.  Challenges that cross multiple environments or programming languages have a much larger chance of failure.  This is where you would list things like NodeJS, Swift, Java / Android, C#, Angular, etc..._**
 *   **&lt;Deployment environment requirements>  _As with the programming languages, if developers are required to test on multiple OS’s, like Windows and Mac, it will make it much harder to find developers for your challenge.  Consider splitting each platform into a separate, smaller challenge.  Also list here if you are using a cloud host like AWS or Heroku for your web application.  Some cloud hosts require a credit card to open an account, even if it isn’t billed, but that can cause problems for competitors._**

@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
     <script src="snips.js"></script>
     <title>TC Specs Template Generator</title>
@@ -62,11 +62,17 @@
                 <form name="markdown" class="mb-5">
                     <label class="form-label">Markdown</label>
                     <textarea class="form-control" name="output" id="output" rows="20"></textarea>
-                    <button id="copybtn" type="button" class="btn btn-dark mt-3" onclick="copy()">Copy to Clipboard</button>
+                    <button id="copybtn" type="button" class="btn btn-dark mt-3" onclick="copy()"><i class="bi bi-markdown-fill"></i> Copy to
+                        Clipboard</button>
                 </form>
 
                 <p class="text-secondary small">
-                    Version 0.1 &middot; <a class="text-secondary" href="https://github.com/0xf17/tc-spec-generator">Contribute on Github &#10141;</a> &middot; Original snippets captured from <a class="text-secondary" href="https://github.com/topcoder-platform-templates/specification-templates">here</a>
+                    Version 0.1 &middot; Specs last updated on May 26, 2021<br/>
+                    <a class="text-secondary"
+                        href="https://github.com/0xf17/tc-spec-generator">Contribute <i class="bi bi-github"></i></a> &middot;
+                    Original specs sourced from 
+                    <a class="text-secondary"
+                        href="https://github.com/topcoder-platform-templates/specification-templates">topcoder../specification-templates</a>
                 </p>
             </div>
         </div>

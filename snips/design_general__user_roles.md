@@ -1,5 +1,5 @@
 ## Users/Roles
-_(Please copy this section from the project input form.)_
+_Note: Please copy this section from the project input form._
 
 Please make sure your design supports the following roles.
 

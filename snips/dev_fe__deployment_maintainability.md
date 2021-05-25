@@ -1,5 +1,5 @@
 ## Deployment and Maintainability
-( Describe the details to be listed in README file that will help reviewers and other developers to run, test and understand the code)
+_Note: Describe the details to be listed in README file that will help reviewers and other developers to run, test and understand the code_
 
 Readme template: [https://github.com/Sande3p/topcoder-frontend/blob/master/tc-frontend-challenge-README-template.md](https://github.com/Sande3p/topcoder-frontend/blob/master/tc-frontend-challenge-README-template.md)
 

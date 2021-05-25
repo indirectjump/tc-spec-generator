@@ -1,5 +1,5 @@
 ## Workflow
-_(Please copy this section from the project input form)_
+_Note: Please copy this section from the project input form_
 
 Please make sure your design incorporates this workflow.
 
