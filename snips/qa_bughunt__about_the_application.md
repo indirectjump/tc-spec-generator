@@ -1,6 +1,4 @@
-## Challenge Objective
-_(Never more than 3 bullet points. The objective must be very clear and concise. The goal is to have members understand what we want, in under 2 seconds. You may repeat information from this section elsewhere in the spec too.)_
+## About the Application
+_(Never more than 2 paragraphs. The background must be very clear and concise.)_
 
-- User interface design
-- 11-15 screens
-- iOS App
+The McClatchy Company is a publicly traded American publishing company based in Sacramento, California. It operates 29 daily newspapers in 14 states and has an average weekday circulation of 1.6 million and Sunday circulation of 2.4 million. In 2006, it purchased Knight Ridder, which at the time was the second-largest newspaper company in the United States (Gannett was and remains the largest). In addition to its daily newspapers, McClatchy also operates several websites and community papers, as well as a news agency, McClatchyDC, focused on political news from the U.S. capital.

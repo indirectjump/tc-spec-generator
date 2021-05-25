@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto+Mono&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+textarea {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.navbar {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}

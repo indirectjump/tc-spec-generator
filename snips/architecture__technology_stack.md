@@ -1,6 +1,5 @@
-## Challenge Objective
-_(Never more than 3 bullet points. The objective must be very clear and concise. The goal is to have members understand what we want, in under 2 seconds. You may repeat information from this section elsewhere in the spec too.)_
+## Technology Stack
+(Please specify the technology stack for this application)
 
-- User interface design
-- 11-15 screens
-- iOS App
+The following technology stack might be used in the application.
+

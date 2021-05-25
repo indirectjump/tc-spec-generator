@@ -1,6 +1,9 @@
-## Challenge Objective
-_(Never more than 3 bullet points. The objective must be very clear and concise. The goal is to have members understand what we want, in under 2 seconds. You may repeat information from this section elsewhere in the spec too.)_
+## Deployment and Maintainability
+( Describe the details to be listed in README file that will help reviewers and other developers to run, test and understand the code)
 
-- User interface design
-- 11-15 screens
-- iOS App
+Readme template: [https://github.com/Sande3p/topcoder-frontend/blob/master/tc-frontend-challenge-README-template.md](https://github.com/Sande3p/topcoder-frontend/blob/master/tc-frontend-challenge-README-template.md)
+
+Example:
+
+- Provide the environment details required to deploy & run the application on heroku.
+- For this challenge provide a video to preview your application.

@@ -1,6 +1,2 @@
-## Challenge Objective
-_(Never more than 3 bullet points. The objective must be very clear and concise. The goal is to have members understand what we want, in under 2 seconds. You may repeat information from this section elsewhere in the spec too.)_
-
-- User interface design
-- 11-15 screens
-- iOS App
+## JS Requirements
+All JavaScript must not have a copyright by a third party. You are encouraged to use your own scripts, or scripts  that are free, publicly available and do not have copyright statements or author recognition requirements anywhere in the code.

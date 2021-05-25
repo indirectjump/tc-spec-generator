@@ -1,0 +1,10 @@
+## Service Requirements
+Web / REST services can be tricky, but it would be best to provide a Swagger (or similar service) file generated **before** the challenge starts. Run a quick Code challenge to get a proper swagger spec defined.  This is ideal because it ensures that you know the contract that will be implemented by the submitters, and the reviewers know exactly what’s required to be reviewed.
+
+If you provide a Swagger or other service description file, you **must** keep it up to date with clarifications from forum questions.  It’s unlikely that the initial Swagger file will be perfect, so as competitors point out issues and the file is updated, you need to keep the file updated so that reviewers and submitters all understand the changes and can implement the service accordingly.
+
+One item to cover with service requirements is unit tests.  You must be clear if unit tests are required and how and when those are run.  Unit tests run at every checkin as part of a continuous integration environment may have different requirements in terms of resources and time limits than unit tests run once during deployment to smoke test an updated service.
+
+If a Swagger file isn’t available but you are requiring competitors to submit one as part of their submission, make sure that you cover how positive **and** negative outputs will be handled in the services.  You want to make sure that the service requirements and how the services will work is covered, but you also need to explain how errors are handled in the service and how those errors are reported back down to the client.  HTTP error codes and messages need to be consistent so that callers can expect services to follow general best practices.  
+
+It would be best to link to specific examples of services that are well implemented.  For instance:  [https://docs.gitlab.com/ee/api/](https://docs.gitlab.com/ee/api/)  

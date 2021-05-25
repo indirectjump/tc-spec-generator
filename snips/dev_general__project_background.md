@@ -1,0 +1,6 @@
+## Project Background
+_(Never more than 3 bullet points.  The goal of the background is to cover what the final deliverable will be to the client and how the project will be used in production)_
+
+- **&lt;How will the finished project be used in production?>**  _Will be used by the client to track customer issue reports.  The application will be used by employees of the client to recommend new products to customers.  _
+- **&lt;Beyond what’s covered in Challenge Objectives, how will this challenge tie into the project?>**   _For instance, if you are running a challenge to build a backend service, describe what will consume the backend service.  Is it mobile apps?  A separate web service?  The goal is to give context to the challenge so that competitors can see the “big picture” a bit._
+- **&lt;After this challenge, what’s next in the project?> _If you can show to competitors that a particular challenge is the first of 5 challenges in a series, you’ll get more interest because it will give early competitors an advantage in later challenges._** 

@@ -1,3 +1,3 @@
 ## Operating Systems
-
-*   iOS only
+- Mobile: Android, iOS
+- Desktop: Windows, MacOS, Linux

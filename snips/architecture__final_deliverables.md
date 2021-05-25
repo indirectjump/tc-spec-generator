@@ -1,6 +1,3 @@
-## Challenge Objective
-_(Never more than 3 bullet points. The objective must be very clear and concise. The goal is to have members understand what we want, in under 2 seconds. You may repeat information from this section elsewhere in the spec too.)_
-
-- User interface design
-- 11-15 screens
-- iOS App
+## Final Deliverables
+- The architecture document.
+- The source of all the diagrams included in the document so that we can easily edit these diagrams further if necessary. (If the client has no specific preferences, we recommend using [LucidChart](https://www.lucidchart.com) as the modeling tool.)

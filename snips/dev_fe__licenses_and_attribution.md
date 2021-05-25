@@ -1,6 +1,3 @@
-## Challenge Objective
-_(Never more than 3 bullet points. The objective must be very clear and concise. The goal is to have members understand what we want, in under 2 seconds. You may repeat information from this section elsewhere in the spec too.)_
-
-- User interface design
-- 11-15 screens
-- iOS App
+## Licenses and Attribution
+- Third-party assets used to build your item must be properly licensed or free for commercial use. MIT, some modified BSD, Apache 2 licenses are ok. If a library is not commercial friendly you will need to get our approval first.
+- Sufficient information regarding third-party assets must be present in your documentation. This includes the author, license info and a direct link to the asset online.

@@ -1,6 +1,6 @@
-## Challenge Objective
-_(Never more than 3 bullet points. The objective must be very clear and concise. The goal is to have members understand what we want, in under 2 seconds. You may repeat information from this section elsewhere in the spec too.)_
-
-- User interface design
-- 11-15 screens
-- iOS App
+### Assets
+_(List the assets here -- make sure the project input form is always included. Always post assets in the challenge forum.)_
+- Wireframes/Prototype
+- User Interface Design
+- GitHub/GitLab Source Code for deployment
+- Zeplin Links

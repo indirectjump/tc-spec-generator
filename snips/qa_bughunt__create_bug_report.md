@@ -1,6 +1,6 @@
-## Challenge Objective
-_(Never more than 3 bullet points. The objective must be very clear and concise. The goal is to have members understand what we want, in under 2 seconds. You may repeat information from this section elsewhere in the spec too.)_
-
-- User interface design
-- 11-15 screens
-- iOS App
+## How to Create New Bug Report
+1. Create an account on GitHub/GitLab (if you do not already have one): [https://github.com](https://github.com) | [https://gitlab.com](https://gitlab.com). \
+2. **You can get access to the GitHub/GitLab repo using [‘Ragnar’ tool ](#)specified in the challenge forum thread to create new bugs OR If you are still getting 404 error, request access to the repo using correct forum thread.** \
+3. There is an issue template whenever you click New Issue in GitHub/GitLab. Please use these template to report your issues. \
+4. Issues/Bugs found in this application/App must create here: (URL for creating Bugs) [https://github.com/topcoderinc/mcclatchy-digital-subscription/issues](https://github.com/topcoderinc/mcclatchy-digital-subscription/issues). DON'T use any other link to create new issues OR submit a document, they won't be counted and won't be paid. \
+5. Please label issues with the appropriate browser type and mode, bug type, and platform type.  The labels can be viewed here: [https://github.com/topcoderinc/mcclatchy-digital-subscription/labels](https://github.com/topcoderinc/mcclatchy-digital-subscription/labels)

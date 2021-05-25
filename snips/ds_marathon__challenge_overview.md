@@ -1,0 +1,3 @@
+## Challenge Overview
+Welcome to the pDEM - Paleo-Digital Elevation Model Marathon Match! The problem we approach today is the reconstruction of prehistoric Earth terrain (also including ocean floors) from a sparse set of geological observations that indicate the elevation and slope of terrain at certain points in geological time. These observations originate, for example, from drilling a hole in the ground, and analysing the composition of extracted material at different depths. Today creation and updates of such elevation models is a labor-intensive largely manual process performed by highly-skilled researchers, our goal is to come up with algorithms to do the same in an accurate, fast, and fully automated manner.
+

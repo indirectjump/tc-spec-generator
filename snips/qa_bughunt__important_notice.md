@@ -1,0 +1,12 @@
+## Important Notice
+
+*   Follow the standard [topcoder Bug Hunt Rules](https://help.topcoder.com/hc/en-us/articles/115008845167-What-is-a-Bug-Hunt-).
+*   If you do not properly document your bug reports, they will likely be rejected due to lack of information or documentation. If you submit the same bug in multiple areas/pages, (for instance, Same validation issue of a form can be found in different pages/sections) you will likely get credit for the original bug report only. The others will all be closed as duplicates.
+*   If you duplicate an issue on a platform or browser that hasn’t been tested yet, you should create a new issue and add a link/reference in the issue description to the existing issue number. Our copilot will review these items and consolidate them later. Please don’t make adjustments or change labels of existing issues logged by other competitors.
+*   DON'T RE-OPEN the issues in the review phase and anyone who RE-OPENS a ticket will be disqualified from the challenge.
+*   If Mobile and Tablet testing are available DON'T create the same issue on different platforms; instead, merge them into one; All the others will be marked as Duplicate.
+*   If you see multiple broken links on the same page combine them into one ticket. Others will be marked as DUPLICATE.
+*   You must not edit the bug report once created, so make sure you enter all the details at the time you create the issue, otherwise, your issue will be moved to the end of the queue. If you really need to edit an issue you must use the comments section for this (i.e. add a comment to describe any changes you want to make to the issue), and we'll decide whether the changes are major enough to move the issue to the end of the queue. You are allowed to add screen shots in the comments section though, assuming your issue report contains all the details when created.
+*   You must specify the test data you have used in the 'Reproduction Steps', All the issues will be marked as 'Incomplete', if the correct test data is not provided.
+*   Keep an eye on the issues being submitted by other participants to minimize the time you may be spending on duplicate efforts. Knowing what has already been reported will allow you to better focus your time on finding yet undiscovered issues.
+*   **There will be no appeals phase. The decision of PM/Copilot for validity and severity of each filled issue will be final.**

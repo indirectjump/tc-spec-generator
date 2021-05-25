@@ -1,6 +1,6 @@
-## Challenge Objective
-_(Never more than 3 bullet points. The objective must be very clear and concise. The goal is to have members understand what we want, in under 2 seconds. You may repeat information from this section elsewhere in the spec too.)_
+## Project Background
+(Avoid more than 3 bullet points. The background should be clear and concise)
 
-- User interface design
-- 11-15 screens
-- iOS App
+- The purpose of this project is to develop a mobile application that will be used by physicians to track order status and view order results for patients they have under their care.
+- Through the order results, the application will also assist physicians in determining which antibiotics to prescribe to patients.
+- The application will be used in doctors offices and hospitals across the US.

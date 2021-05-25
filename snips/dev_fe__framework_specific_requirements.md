@@ -1,6 +1,13 @@
-## Challenge Objective
-_(Never more than 3 bullet points. The objective must be very clear and concise. The goal is to have members understand what we want, in under 2 seconds. You may repeat information from this section elsewhere in the spec too.)_
-
-- User interface design
-- 11-15 screens
-- iOS App
+## Framework Specific Requirements
+- Code should follow the best practices of [ECMAScript 5](https://en.wikipedia.org/wiki/ECMAScript) (ES5) or above.
+- Split the code into Reusable components.
+- For ReactJS based applications, there should be two types of component 
+  - Container components (aka Smart components): Components those connect with the central store.
+  - Presentational components (aka Dumb components): Components those rely on smart components for data.
+  - For more visit  [https://redux.js.org/basics/usagewithreact#presentational-and-container-components](https://redux.js.org/basics/usagewithreact#presentational-and-container-components). 
+- For AngularJS based applications these are the expected modules:  Core, Shared and lazy-loaded Feature modules.
+  - Core Modules:  All services which have to have one and only one instance per application (singleton services) should be implemented here.
+  - SharedModule: All the “dumb” components and pipes should be implemented here.
+  - Lazy Loading: 	We should lazy load our feature modules whenever possible. 
+- If the official framework documentation says specific way or approach to do something, and you did differently with no solid reason, that's valid for scoring down.
+- For any other framework, follow the guidelines listed in _“Application Development Requirements” _section or else ask in challenge forums.
