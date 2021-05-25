@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <script src="snips.js"></script>
+    <title>Topcoder Challenge Spec Template Generator</title>
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+        }
+
+        textarea {
+            font-family: 'Roboto Mono', monospace;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        tr {
+            color: black;
+            border-bottom: 1px solid grey;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr.sub {
+            color: grey;
+        }
+    </style>
+    <script>
+        function add_snip(title, name) {
+            return `
+            <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" name="` + name + `" onchange="refresh()">
+                        <label class="form-check-label">
+                            ` + title + `
+                        </label>
+                    </div>
+                    `;
+        }
+
+        function refresh() {
+            document.getElementById("output").value = "";
+
+            for (var i = 0; i < snips.length; i++) {
+                document.forms[ctype[i]].style.display = "none";
+            }
+            var md = "";
+
+            var challenge_title = document.forms.spec_base.challenge_title.value;
+            md += "# " + challenge_title;
+
+            var challenge_type = document.forms.spec_base.challenge_type.selectedIndex;
+
+            document.forms[ctype[challenge_type]].style.display = "block";
+
+            var i = challenge_type;
+            for (var j = 0; j < snips[i].length; j++) {
+                if (document.forms[ctype[i]][snips[i][j][1]].checked) {
+                    md += snip[ctype[i] + "__" + snips[i][j][1]];
+                }
+            }
+
+
+            document.forms.markdown.output.value = md;
+
+        }
+
+        function init() {
+            fetch_all_snips();
+
+            for (var i = 0; i < snips.length; i++) {
+                for (var j = 0; j < snips[i].length; j++) {
+                    document.forms[ctype[i]].innerHTML += add_snip(snips[i][j][0], snips[i][j][1]);
+                }
+            }
+            refresh();
+        }
+
+    </script>
+</head>
+
+<body onload="init()">
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Topcoder Challenge Spec Template Generator v0.1</a>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row align-items-start">
+            <div class="col-3">
+                <form name="spec_base">
+                    <div class="mb-3">
+                        <label class="form-label">Challenge Title</label>
+                        <input type="text" class="form-control" name="challenge_title" oninput="refresh()"
+                            value="Acme Challenge">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Challenge Type</label>
+                        <select class="form-select" name="challenge_type" onchange="refresh()">
+                            <option value="0" selected>Architecture</option>
+                            <option value="1">Data Science - Marathon Match</option>
+                            <option value="2">Design - General</option>
+                            <option value="3">Development - Front End</option>
+                            <option value="4">Development - General</option>
+                            <option value="5">QA - Bug Hunt</option>
+                        </select>
+                    </div>
+                </form>
+
+                <form name="architecture" style="display: none;">
+                </form>
+                <form name="ds_marathon" style="display: none;">
+                </form>
+                <form name="design_general" style="display: none;">
+                </form>
+                <form name="dev_fe" style="display: none;">
+                </form>
+                <form name="dev_general" style="display: none;">
+                </form>
+                <form name="qa_bughunt" style="display: none;">
+                </form>
+            </div>
+            <div class="col-9">
+                <form name="markdown">
+                    <label class="form-label">Markdown</label>
+                    <textarea class="form-control" name="output" id="output" rows="20"></textarea>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
